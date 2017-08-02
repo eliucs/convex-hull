@@ -1,6 +1,6 @@
 # Convex Hull Demonstration
 
-This is a Node.js program that demonstrates the [Graham's scan] (https://en.wikipedia.org/wiki/Graham_scan)
+This is a Node.js program that demonstrates the [Graham's scan](https://en.wikipedia.org/wiki/Graham_scan)
 algorithm to compute the convex hull of a set of points. A convex hull is the
 smallest subset of those points that enclose all of the points. Check it
 out [here](https://convexhull.herokuapp.com). Works great on mobile!
