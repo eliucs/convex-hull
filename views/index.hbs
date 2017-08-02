@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body class="body-main">
+    <div class="title-container">
+      <div class="title">
+        Convex Hull Demonstration
+      </div>
+      <div class="description">
+        Visualization of the <a href="https://en.wikipedia.org/wiki/Graham_scan">Graham's scan</a> algorithm to compute the <a href="https://en.wikipedia.org/wiki/Convex_hull">convex hull</a> of a set of points.
+      </div>
+      <div class="link">
+        Made by <a href="http://ericliu.ca">Eric Liu</a>.
+      </div>
+    </div>
+
+    <div class="details-container">
+      <div class="description">
+        Click anywhere to create a point.<br><br>
+        <button id="btn-reset" class="btn-reset" type="button" name="reset">Reset</button>
+      </div>
+    </div>
+
+    <canvas id="canvas" class="main-canvas" resize></canvas>
+
+    <script type="text/paperscript" src="../js-min/script.js" canvas="canvas"></script>
+  </body>
+</html>
